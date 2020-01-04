@@ -8,81 +8,111 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  
-  <nav>
-    <div class="top-left">
-      <a class = "heart" href="#">♥︎</a>
-      <span class="acronym">Neophobe Plebeian Mumpsimus</span>
+  <!-- Your code goes here -->
+
+  <nav >
+    <div class="nav-bar" > 
+      <div class="top-left">
+       <a class = "heart" href="#">♥︎</a>
+       <span class="acronym">Neophobe Plebeian Mumpsimus</span>
+      </div>
+      <ul class="top-links">
+       <li><a href="#">npm Enterprise</a></li>
+       <li><a href="#">features</a></li>
+       <li><a href="#">pricing</a></li>
+       <li><a href="#">documentation</a></li>
+       <li><a href="#">support</a></li>
+      </ul>
     </div>
-    <ul class="top-links">
-      <li><a href="#">npm Enterprise</a></li>
-      <li><a href="#">features</a></li>
-      <li><a href="#">pricing</a></li>
-      <li><a href="#">documentation</a></li>
-      <li><a href="#">support</a></li>
-    </ul>
   </nav>
 
+
   <header>
-    <div id="principal">
-      <img class="logo-header" src="images/npm-logo.png" alt="logonpm">
-
-      <form class = "search" action="search">
-        <input class = "search-bar" type="search" placeholder="find package">
-        <button class = "search-button" type="button"></button>
-      </form>
-
-      <ul class="top-links">
-        <li><a href="#"> sign up </a> or <a href="#"> log in </a></li>
-        <li><img class = "logo-header-bear" src="images/bear-logo.png" alt="ositoLogo"></li>
-      </ul>
-      
+    <div class="header">
+        <div class="button-find">
+            <form action="button-for-search" method="GET">
+                <img class="logo-header-npm" src="images/npm-logo.png" alt="logo-npm">
+                <input type="text" placeholder="find package">
+                <button type="submit"></button>
+            </form>
+            <div class="sing-up">
+              <ul class="ul-header">
+                <li><a href="#"> sign up </a> or <a href="#"> log in </a></li>
+                <li><img class="logo-header-bear" src="images/bear-logo.png" alt="ositoLogo"></li>
+              </ul>
+            </div>
+        </div>
+        <div class="text-button">
+          <div class="text">
+            <h1> Build amazing things </h1>
+            <p> npm is the package manager for JavaScript and the world's largest software registry. Discover packages of reusable code - and assemble them in powerful new ways. </p>
+          </div>
+            <div class="button-submit">
+              <form action="#" method="GET">
+                <button type="submit">Sing up for npm </button>
+              </form>
+            </div>
+        </div>
     </div>
+</header>
 
-    <div class = "contenido">
-      <h1> Build amazing things </h1>
-      <p> npm is the package manager for JavaScript and the world's largest software registry. Discover packages of reusable code - and assemble them in powerful new ways. </p>
-      <button><a>Sing up for npm </a></button>
+<section class="general-information">
+  <div> 
+      <div class="information-image">
+          <img src="images/collaboration.svg" alt="image-collaboration">
+      </div>
+      <div class="information">
+          <h1>npm Orgs is powerfull collaboration - for free</h1>
+          <ul class="list-information">
+              <li>Encourage code discovery and re-use within teams</li>
+              <li>Publish and control access to your own namespace</li>
+              <li>Manage public and private code with the same workflow</li>                
+          </ul>
+          <form class="sing-up" method="GET" >
+              <input type="submit" value="Sing up for Orgs"> <br><br> or <a href="#">Learn more about Orgs</a>
+          </form>
+      </article>
+  </div>
+</section>
+
+
+
+  <section class="section-two">
+    <div class="what-is-npm">
+      <div class="npm-info">
+       <h1>What is npm?</h1>
+       <p>Use npm to install, and distribuite code; manage dependencies in your projects; and share & receive feedback with others.</p>
+      </div>
+      <div class="install-npm">
+        <form action="#" method="GET">
+          <input type="submit" value="Install npm">
+        </form>
+      </div>
     </div>
-  </header>
-
-  <section class="introduction">
-    <img src="images/collaboration.svg" alt="Personas">
-    <h1>npm Orgs is powerfull collaboration - for free</h1>
-    <ul>
-      <li>Encourage code discovery and re-use within teams</li>
-      <li>Publish and control access to your own namespace</li>
-      <li>Manage public and private code with the same workflow</li>
-      <button>Sing up for Orgs</button> 
-      <br> or <a href="#"> Learn more about Orgs</a>
-    </ul>
-  </section>
-
-  <section class="npm">
-    <h1>What is npm?</h1>
-    <p>Use npm to install, and distribuite code; manage dependencies in your projects; and share & receive feedback with others.</p>
-    <button>Install npm </button>
   </section>
   
-  <section class="final">
-    <h1>What can you make with 475,000 building blocks?</h1>
-    <p>The npm registry hosts almost half a million packages of free, reusable code - the largest software registry in the world.</p>
-    <div>
-      <img src="images/binoculars.svg" alt="binoculars">
-      <h2>Find</h2>
-      <p>Libreries like <a href="#">JQuery</a> , <a href="#"> Bootstrap </a> <a href="#"> React</a> , and <a href="#"> Angular </a> and components from frameworks suchs as <a href="#">Ember</a>.</p>
+  <section class="final-section">
+    <div class="building-blocks">
+      <h1>What can you make with 475,000 building blocks?</h1>
+      <p>The npm registry hosts almost half a million packages of free, reusable code - the largest software registry in the world.</p>
     </div>
-    <div>
-      <img src="images/mountain-flag.svg" alt="Flags">
-      <h2>Discover</h2>
-      <p>Packages for mobile, loT, front end, back end, robotics... everything you need to start building amazing things.</p>
+    <div class="seccion-four">
+      <article class="final-box">
+        <img src="images/binoculars.svg" alt="binoculars">
+        <h2>Find</h2>
+        <p>Libreries like <a href="#">JQuery</a> , <a href="#"> Bootstrap </a> <a href="#"> React</a> , and <a href="#"> Angular </a> and components from frameworks suchs as <a href="#">Ember</a>.</p>
+      </article>
+      <article class="final-box">
+        <img src="images/mountain-flag.svg" alt="Flags">
+        <h2>Discover</h2>
+        <p>Packages for mobile, loT, front end, back end, robotics... everything you need to start building amazing things.</p>
+      </article>
+      <article class="final-box">
+        <img src="images/backpack.svg" alt="backpack">
+        <h2>Build</h2>
+        <p>Assemble packages like building blocks to quickly develop awesome new projects.</p>
+      </article>
     </div>
-    <div>
-      <img src="images/backpack.svg" alt="backpack">
-      <h2>Build</h2>
-      <p>Assemble packages like building blocks to quickly develop awesome new projects.</p>
-    </div>
-
   </section>
 </body>
 </html>
