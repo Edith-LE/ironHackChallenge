@@ -1,0 +1,91 @@
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 50px;
+}
+  
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-left {
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin: 0 20px 0 0;
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header {
+  background-color: rgb(32, 101, 136) ;
+  background-image: url(images/city-scape.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  height: 400pt;
+}
+
+.logo-header{
+  height: 40px;
+  padding-left: 8pt;
+  padding-right: 12pt;
+  padding-top: 7pt;
+  padding-bottom: 7pt;
+}
+
+.logo-header-bear{
+  height: 25px;
+  padding-top: 7pt;
+}
+
+input{
+  background-color: rgb(40, 78, 104);
+  border-color: rgb(47, 46, 46);
+  border-style: solid;
+
+  width: inherit;
+  height: 40px;
+  margin-top: 7pt;
+  
+}
+
+.search-button{
+  background-color: rgb(40, 78, 104);
+  background-image: url(images/magnifying-glass.png);
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-color: rgb(47, 46, 46);
+  border-style: solid;
+
+  height: 40px;
+  width: 40px;
+  margin-top: 7pt;
+  float: right;
+}
+
+#principal {
+  background-color: burlywood; 
+  display: flex;
+}
+
+.search{
+  width: 75%;
+  background-color: darkmagenta;
+  margin-top: 0pt;
+}
