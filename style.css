@@ -78,8 +78,7 @@ nav {
   .button-find form{
     display: flex;
     width: 80%;
-    background-color: grey;
-  }
+s  }
 
   .button-find form input{
     background-color: rgb(31, 82, 111);
@@ -95,7 +94,6 @@ nav {
     display: flex;
     align-items: center;
     float: right;
-    background-color: indigo;
   }
   
   .sing-up img{
@@ -195,7 +193,6 @@ nav {
   .sing-up a{
     color: white;
     text-decoration: none;
-    /* margin: 10px 5px 5px 20%; */
   }
    
   /*section two*/
@@ -210,15 +207,14 @@ nav {
     margin: 0 auto;
     padding: 70px 0;
     color: white;
+    display: flex;
   }
 
   .npm-info{
-   justify-content: space-between;
-   flex-direction: row;
-   flex-wrap: wrap;
-   align-items: center;
-   padding-left: 230px;
-   margin: 10px 10px 10px 10px;
+   padding-left: 100px;
+   float: left;
+   width: 30%;
+   text-align: justify;
   }
 
   .npm-info p{
@@ -228,14 +224,25 @@ nav {
     padding-top: 15pt;
   }
 
-  .install-npm form input{
+  .npm-info  form input{
    color: white;
    background-color: rgb(49, 68, 88);
-   margin: 40px 5px 5px 20%;
+   margin: 20px 5px 5px 0%;
    padding: 8px 25px 12px;
    border-radius: 18px; 
-
   }
+
+  .npm-info h1{
+    font-size: 2.5em;
+    text-align: left;
+    line-height: 1em;
+  }
+   .npm-info p{
+    font-size: 1.2em;
+    text-align: left;
+    line-height: 1em;
+    text-align: justify;
+   }
 
   /* final section */
 
